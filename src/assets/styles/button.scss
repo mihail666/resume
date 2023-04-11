@@ -1,0 +1,35 @@
+.button {
+  display: inline-block;
+  background-color: $first-color;
+  color: $white-color;
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  font-size: $normal-font-size;
+  transition: .3s;
+  &:hover {
+    background-color: $first-color-alt;
+  }
+}
+
+.scrollup {
+  position: fixed;
+  right: .7rem;
+  bottom: 5%;
+  padding: .45rem;
+  background: hsla(0, 0, 100%, .1);
+  backdrop-filter: blur(16px);
+  border-radius: .5rem;
+  display: inline-flex;
+  font-size: 1.15rem;
+  color: $white-color;
+  z-index: $z-tooltip;
+  transition: .4s;
+  opacity: .0;
+  &:hover {
+    transform: translateY(-.25rem);
+  }
+}
+
+.show-scroll{
+  opacity: .9;
+}
