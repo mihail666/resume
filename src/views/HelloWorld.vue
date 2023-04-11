@@ -1,13 +1,19 @@
 <template>
   <section id="home" class="home section">
     <div class="container home home__container grid">
-      <img src="@/assets/img/2.png" alt="" class="home__img">
+
       <div class="home__data">
         <h1 class="home__title">Hello</h1>
         <h2 class="home__subtitle">l`m Mihail</h2>
         <h3 class="home__icon">
           <i class="ri-vip-crown-2-fill"></i> profile
         </h3>
+      </div>
+
+      <div class="home__content">
+        <div class="home__img">
+          <img src="@/assets/img/2.png" alt="">
+        </div>
 
         <div class="home__cards">
           <div class="home__card-group">
@@ -18,66 +24,118 @@
               <span>}</span>
             </ul>
           </div>
-          <div class="home__card-group">
-            <ul class="home__card-content">.Name
-              <span>{</span>
-              <li>Profession: Front-end developer;</li>
-              <li>Markup: HTML;</li>
-              <li>Write on: Vue.js;</li>
-              <span>}</span>
-            </ul>
-          </div>
-          <div class="home__card-group">
-            <ul class="home__card-content">.Name
-              <span>{</span>
-              <li>
-                <a href="https://t.me/MadoneFR" target="_blank" rel="noopener">Telegram: <span
-                    class="card-span-2">t.me/MadoneFR</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://vk.com/m1hail_one" target="_blank" rel="noopener">vk: <span
-                    class="card-span-2">vk.com/m1hail_one</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://api.whatsapp.com/send?phone=79877933061" target="_blank" rel="noopener">Whatsapp: <span
-                    class="card-span-2">+79877933061</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/mihail666" target="_blank" rel="noopener">GitHub: <span
-                    class="card-span-2">github.com/mihail666</span>
-                </a>
-              </li>
-              <li>
-                <a href="mailto:f1l1ppovmr@gmail.com" target="_blank" rel="noopener">Gmail: <span
-                    class="card-span-2">f1l1ppovmr@gmail.com</span>
-                </a>
-              </li>
-              <span>}</span>
-            </ul>
-          </div>
+        </div>
+
+      </div>
+      <div class="home__content2">
+        <div class="home__card-group">
+          <button class="home__card-btn button">
+            <a href="#hard-skils">What I Do {...}</a>
+          </button>
+        </div>
+        <div class="home__card-group">
+          <ul class="home__card-content">.Contacts
+            <span>{</span>
+            <li>
+              <a href="https://t.me/MadoneFR" target="_blank" rel="noopener">Telegram: <span
+                  class="card-span-2">t.me/MadoneFR;</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=79877933061" target="_blank" rel="noopener">Whatsapp: <span
+                  class="card-span-2">+79877933061;</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/mihail666" target="_blank" rel="noopener">GitHub: <span
+                  class="card-span-2">github.com/mihail666;</span>
+              </a>
+            </li>
+            <span>}</span>
+          </ul>
         </div>
       </div>
-
-
-
 
     </div>
   </section>
 
   <section id="about" class="about section">
-    <div class="container about about__container grid">
-      <h1 class="section__title">about</h1>
-      <h2 class="section-subtitle"></h2>
+    <h1 class="section__title">#About me</h1>
+    <div class="container grid about__container">
+      <div class="about__group">
+        <img src="@/assets/img/about.jpg" alt="" class="about__img">
+
+        <div class="about__card">
+          <h3 class="about__card-title">7877+</h3>
+          <p class="adout__card-description">
+            часов разработки приложений на Vue
+          </p>
+        </div>
+      </div>
+
+      <div class="about__data">
+        <h2 class="about__title">
+          .concerning me
+          <span>{</span>
+        </h2>
+
+        <p class="about__description">
+          <i class="ri-focus-line"></i>
+          Разработка интерфейса в течение 2 лет с использованием HTML/ CSS/ JS/ Vue.js и я ищу
+          возможность применить
+          свои знания на практике.
+        </p>
+
+        <p class="about__description">
+          <i class="ri-focus-line"></i>
+          Я готов выполнить тестовое задание, чтобы продемонстрировать уровень своих навыков
+        </p>
+
+        <p class="about__description">
+          <i class="ri-focus-line"></i>
+          Также есть уже сделанные проекты
+        </p>
+        <h2 class="section__title about__title">}</h2>
+        <a href="#projects" class="button">Projects {...}</a>
+      </div>
     </div>
+
   </section>
 
   <section id="hard-skils" class="hard-skils section ">
+    <h2 class="section__title">#Hard-skils</h2>
     <div class="container hard-skils__container grid">
-      <h1 class="section__title">hard-skils</h1>
-      <h2 class="section__subtitle"></h2>
+      <div class="hard-skils__data">
+        <div class="hard-skils__card">
+          <div class="hard-skils__card-title">
+            <i class="ri-focus-line"></i>
+            <h2 class="hard-skils__title">Vue {</h2>
+          </div>
+          <ul class="hard-skils__card-description">
+            <li>Знание VueX;</li>
+            <li>Разработка через Vue CLI;</li>
+            <li>Работа с DOM;</li>
+            <li>Компонентный подход;</li>
+          </ul>
+        </div>
+        <h2 class="hard-skils__title">}</h2>
+      </div>
+
+      <div class="hard-skils__data">
+        <div class="hard-skils__card">
+          <div class="hard-skils__card-title">
+            <i class="ri-focus-line"></i>
+            <h2 class="hard-skils__title">Vue {</h2>
+          </div>
+          <ul class="hard-skils__card-description">
+            <li>Знание VueX;</li>
+            <li>Разработка через Vue CLI;</li>
+            <li>Работа с DOM;</li>
+            <li>Компонентный подход;</li>
+          </ul>
+        </div>
+        <h2 class="hard-skils__title">}</h2>
+      </div>
     </div>
   </section>
 
@@ -104,150 +162,63 @@
     </div>
   </section>
 
-
-  <div class="hello container-app">
-    <div class="row center">
-      <div class="col container">
-        <div class="box-outer">
-          <div class="main_box">
-            <div class="box-img"></div>
-            <!-- <div class="bar top"></div>
-            <div class="bar right delay"></div> -->
-            <!-- 
-            <div class="bar bottom delay"></div>
-            <div class="bar left"></div> 
-            -->
-          </div>
-        </div>
-      </div>
-      <div class="col container ml">
-        <ul class="center">
-          <li class="title">
-            <h1>Hello</h1>
-            <span>l`m Mihail</span>
-          </li>
-          <li class="card">
-            <h3 class="card-title">.Name<span class="card-span-1">{</span></h3>
-            <ul class="card-content">
-              <li>FirstName: <span class="card-span-2">Михаил;</span></li>
-              <li>LastName: <span class="card-span-2">Филиппов;</span></li>
-              <br>
-              <li><span class="card-span-1">}</span></li>
-            </ul>
-          </li>
-          <li class="card card-margin">
-            <h3 class="card-title">.What I Do<span class="card-span-1">{</span></h3>
-            <ul class="card-content">
-              <li>Profession: <span class="card-span-2">Front-end developer;</span></li>
-              <li>Markup: <span class="card-span-2">HTML;</span></li>
-              <li>Write on: <span class="card-span-2">Vue.js;</span></li>
-              <br>
-              <li><span class="card-span-1">}</span></li>
-            </ul>
-          </li>
-          <li class="card">
-            <h3 class="card-title">.Contacts<span class="card-span-1">{</span></h3>
-            <ul class="card-content">
-              <li>
-                <a href="https://t.me/MadoneFR" target="_blank" rel="noopener">Telegram: <span
-                    class="card-span-2">t.me/MadoneFR</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://vk.com/m1hail_one" target="_blank" rel="noopener">vk: <span
-                    class="card-span-2">vk.com/m1hail_one</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://api.whatsapp.com/send?phone=79877933061" target="_blank" rel="noopener">Whatsapp: <span
-                    class="card-span-2">+79877933061</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/mihail666" target="_blank" rel="noopener">GitHub: <span
-                    class="card-span-2">github.com/mihail666</span>
-                </a>
-              </li>
-              <li>
-                <a href="mailto:f1l1ppovmr@gmail.com" target="_blank" rel="noopener">Gmail: <span
-                    class="card-span-2">f1l1ppovmr@gmail.com</span>
-                </a>
-              </li>
-              <br>
-              <li><span class="card-span-1">}</span></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+  <div class="info bg">
+    <h3 class="title">#Hard skills</h3>
+    <div class="">
+      <ul class="info-col">
+        <h4 class="info-title">HTML</h4>
+        <li>Знаю понятие потока документа;</li>
+        <li>Знаю отличие блочного и строчного элементов;</li>
+        <li>Использую HTML-теги в соответствии с их семантикой;</li>
+      </ul>
+      <ul class="info-col">
+        <h4 class="info-title">CSS / SCSS</h4>
+        <li>Умею создавать адаптивную верстку при помощи медиа-выражений;</li>
+        <li>Использую флексбокс раскладку;</li>
+        <li>Знаю базовые принципы БЭМ;</li>
+      </ul>
+      <ul class="info-col">
+        <h4 class="info-title">JavaScript</h4>
+        <li>Знаю базовые структуры данных JS;</li>
+        <li>Умею работать с асинхронными функциями;</li>
+        <li>Понимание работы событийного цикла;</li>
+      </ul>
+      <ul class="info-col">
+        <h4 class="info-title">Vue.js</h4>
+        <li>Создание и разработка Vue приложений с Vue CLI</li>
+        <li>Работа с DOM событиями, атрибутами, элементами форм;</li>
+        <li>Компонентный подход и описание компонентов на Vue;</li>
+      </ul>
+      <ul class="info-col">
+        <h4 class="info-title">Git</h4>
+        <li>знаю основные команды git</li>
+        <li>умею создавать пулл реквесты;</li>
+        <li>использую подход "один коммит, одна задача"</li>
+      </ul>
     </div>
-    <div class="about bg">
-      <h3 class="title">#About me</h3>
-      <div class="row">
-        <p class="about-text">
-          Разработка интерфейса в течение 2 лет с использованием HTML/ CSS/ JS/ Vue.js и я ищу
-          возможность применить
-          свои знания на практике. Я готов выполнить тестовое задание, чтобы продемонстрировать уровень своих навыков
-        </p>
-      </div>
+    <h3 class="title">#Soft skills</h3>
+    <div class="">
+      <ul class="info-col">
+        <li>Легко ориентироваться;</li>
+        <li>aдаптироваться к изменениям;</li>
+        <li>Творческое видение;</li>
+        <li>Коммуникабельность;</li>
+      </ul>
     </div>
-    <div class="info bg">
-      <h3 class="title">#Hard skills</h3>
-      <div class="">
-        <ul class="info-col">
-          <h4 class="info-title">HTML</h4>
-          <li>Знаю понятие потока документа;</li>
-          <li>Знаю отличие блочного и строчного элементов;</li>
-          <li>Использую HTML-теги в соответствии с их семантикой;</li>
-        </ul>
-        <ul class="info-col">
-          <h4 class="info-title">CSS / SCSS</h4>
-          <li>Умею создавать адаптивную верстку при помощи медиа-выражений;</li>
-          <li>Использую флексбокс раскладку;</li>
-          <li>Знаю базовые принципы БЭМ;</li>
-        </ul>
-        <ul class="info-col">
-          <h4 class="info-title">JavaScript</h4>
-          <li>Знаю базовые структуры данных JS;</li>
-          <li>Умею работать с асинхронными функциями;</li>
-          <li>Понимание работы событийного цикла;</li>
-        </ul>
-        <ul class="info-col">
-          <h4 class="info-title">Vue.js</h4>
-          <li>Создание и разработка Vue приложений с Vue CLI</li>
-          <li>Работа с DOM событиями, атрибутами, элементами форм;</li>
-          <li>Компонентный подход и описание компонентов на Vue;</li>
-        </ul>
-        <ul class="info-col">
-          <h4 class="info-title">Git</h4>
-          <li>знаю основные команды git</li>
-          <li>умею создавать пулл реквесты;</li>
-          <li>использую подход "один коммит, одна задача"</li>
-        </ul>
-      </div>
-      <h3 class="title">#Soft skills</h3>
-      <div class="">
-        <ul class="info-col">
-          <li>Легко ориентироваться;</li>
-          <li>aдаптироваться к изменениям;</li>
-          <li>Творческое видение;</li>
-          <li>Коммуникабельность;</li>
-        </ul>
-      </div>
-    </div>
-    <div class="Tools bg">
-      <h3 class="title">#Tools</h3>
-      <div class="row">
-        <ul class="info-col">
-          <li>Английский: Уровень B1. Читаю техническую документацию, периодически используя Google
-            Translate.</li>
-          <li>Использую Prettier и ESLint для автоматического форматирования и проверки кода;</li>
-          <li>Опыт использования Figma, Photoshop для работы с дизайн-макетами;</li>
-          <li>Использую Windows 11 в качестве рабочей ОС;</li>
-        </ul>
-      </div>
-    </div>
-    <ResumeGallary />
   </div>
+  <div class="Tools bg">
+    <h3 class="title">#Tools</h3>
+    <div class="row">
+      <ul class="info-col">
+        <li>Английский: Уровень B1. Читаю техническую документацию, периодически используя Google
+          Translate.</li>
+        <li>Использую Prettier и ESLint для автоматического форматирования и проверки кода;</li>
+        <li>Опыт использования Figma, Photoshop для работы с дизайн-макетами;</li>
+        <li>Использую Windows 11 в качестве рабочей ОС;</li>
+      </ul>
+    </div>
+  </div>
+  <ResumeGallary />
 </template>
 
 <script>
@@ -377,11 +348,195 @@ export default {
 }
 </script>
 <style lang="scss">
-.home {
-  align-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  &__img{
+@import '@/assets/styles/variables.scss';
 
+.home {
+  position: relative;
+
+  &__data {
+    position: absolute;
+    display: grid;
+    left: 58%;
+    align-items: center;
+
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__content {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    margin-bottom: 2rem;
+
+  }
+
+  &__content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7rem;
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+
+    img {
+      max-width: 380px;
+      border: 1px solid #000;
+      border-radius: 50%;
+      justify-self: center;
+    }
+
+    &::before {
+      border-radius: 50%;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: radial-gradient(50% 50%, hsla(0, 0%, 0%, 0.2) 60%, $body-color 100%);
+    }
+  }
+
+  &__cards {
+    display: grid;
+    justify-content: start;
+  }
+
+  &__card-group {
+    max-width: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    transition: .3s;
+
+    &:nth-child(2) {
+      position: relative;
+      max-width: 270px;
+      top: -7rem;
+      left: 2rem;
+    }
+
+    &:hover {
+      transform: translateX(1rem);
+    }
+  }
+
+  &__card-content {
+    font-size: $h2-font-size;
+    color: $white-color;
+
+    li {
+      padding: 0.3rem 0 0.3rem 1rem;
+      font-size: $normal-font-size;
+      color: $text-color;
+      row-gap: .5rem;
+
+
+      a {
+        color: $text-color;
+        padding: 0.2rem 0;
+        border-bottom: 1px solid hsla(216, 8%, 75%, 0.4);
+        transition: .3s;
+
+      }
+
+      :hover {
+        color: $first-color;
+        border-bottom: 1px solid $first-color-alt;
+      }
+    }
+  }
+
+  &__card-btn {
+    position: relative;
+    width: 200px;
+    top: -1rem;
+    left: 0rem;
+
+    &:hover {
+      a {
+        color: $body-color;
+      }
+    }
+  }
+}
+
+.about {
+  &__container {
+    row-gap: 6rem !important;
+  }
+
+  &__group {
+    width: 100%;
+    position: relative;
+  }
+
+  &__img {
+    border-radius: .5rem;
+  }
+
+  &__card {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    padding: 1rem .75rem;
+    border-radius: 1.25rem;
+    background: hsla(0, 0, 100%, .1);
+    backdrop-filter: blur(16px);
+    text-align: center;
+  }
+
+  &__card-title {
+    font-size: $h3-font-size;
+    margin-bottom: .5rem;
+  }
+
+  &__card-description {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__card-title {
+    font-size: $h3-font-size;
+    margin-bottom: .5rem;
+  }
+
+  &__card-descriptions {
+    font-size: $smaller-font-size;
+  }
+
+  &__title {
+    font-size: $h2-font-size;
+    text-align: initial;
+    margin-bottom: 2rem;
+    text-align: left !important;
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+  }
+}
+
+.hard-skils {
+  position: relative;
+  &__container {
+    row-gap: 6rem;
   }
 }
 

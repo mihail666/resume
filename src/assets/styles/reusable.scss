@@ -14,12 +14,13 @@
 }
 
 .section__title {
-  font-size: $h2-font-size;
+  font-size: $h1-font-size;
   text-align: left;
   margin-bottom: 2.5rem;
 }
 
 .main {
+  max-width: 1024px;
   overflow: hidden;
 }
 
