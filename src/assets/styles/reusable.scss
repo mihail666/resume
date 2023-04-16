@@ -20,12 +20,11 @@
 }
 
 .main {
-  max-width: 1024px;
   overflow: hidden;
 }
 
 .shape {
-  background-color: hsla(219, 33%, 32%, .5);
+  background-color: hsla(0, 0%, 53%, 0.5);
   border-radius: 50%;
   filter: blur(112px);
 }

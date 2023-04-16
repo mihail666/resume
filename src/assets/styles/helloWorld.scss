@@ -1,0 +1,233 @@
+// home sec
+
+.home {
+  position: relative;
+  overflow: hidden;
+
+  &__data {
+    .home__title {
+      font-size: 3.5rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  &__container {
+    row-gap: 2.5rem;
+    position: relative;
+
+    .home-group {
+      padding-bottom: 5rem;
+    }
+
+    &__card-content {
+
+      &:nth-child(2) {
+        margin-left: 5rem;
+      }
+    }
+  }
+
+  &__card-content {
+    border-radius: .5rem;
+    font-size: $h2-font-size;
+    margin-bottom: rem;
+    padding: 1rem;
+    color: $white-color;
+
+    li {
+      padding-left: 1rem;
+      font-size: $normal-font-size;
+      color: $title-color;
+
+      :hover {
+        color: $first-color;
+        border-bottom: 1px solid $first-color-alt;
+      }
+    }
+  }
+
+  &__img {
+    width: 55%;
+    position: absolute;
+    bottom: 13rem;
+    right: 0;
+    img {
+      border-radius: 50%;
+    }
+
+    &::before {
+
+      content: "";
+      border-radius: 50%;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: radial-gradient(50% 50%, hsla(0, 2%, 49%, 0.1) 70%, $body-color-opasity 100%);
+    }
+  }
+
+  &__card-btn {
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+  }
+}
+
+.home .shape__big,
+.home .shape__small {
+  position: absolute;
+}
+
+.home .shape__big {
+  width: 300px;
+  height: 300px;
+  left: -6rem;
+  top: -2rem;
+}
+
+.home .shape__small {
+  right: -13rem;
+  bottom: -6rem;
+}
+
+// about sec
+
+.about {
+  &__container {
+    row-gap: 6rem;
+  }
+
+  &__group {
+    width: 100%;
+    position: relative;
+  }
+
+  &__img {
+    border-radius: .5rem;
+  }
+
+  &__card {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: -4rem;
+    padding: 1rem .75rem;
+    border-radius: 1.25rem;
+    background: $first-color-alt;
+    backdrop-filter: blur(16px);
+    text-align: center;
+  }
+
+  &__card-title {
+    font-size: $h3-font-size;
+    margin-bottom: .5rem;
+  }
+
+  &__card-description {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__card-title {
+    font-size: $h3-font-size;
+    margin-bottom: .5rem;
+  }
+
+  &__card-descriptions {
+    font-size: $smaller-font-size;
+  }
+
+  &__title {
+    font-size: $h2-font-size;
+    text-align: initial;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+    padding-left: .5rem;
+  }
+}
+
+// hard-skills
+
+.hard-skils {
+  position: relative;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+  }
+
+  &__card {
+    width: 300px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background: $body-color-opasity;
+  }
+
+  &__card-title {
+    position: relative;
+    letter-spacing: 3px;
+
+    .card-title-icon {
+      font-size: $h1-font-size;
+    }
+  }
+
+  .title {
+    font-weight: $font-semi-bold;
+    font-size: $h2-font-size;
+    padding-left: 0.5rem;
+  }
+
+  &__card-description {
+    gap: .5rem;
+    padding: 1rem 0rem 1rem .5rem;
+
+  }
+}
+
+// soft-skills
+.soft-skils {
+  &__container {
+    row-gap: 2rem;
+  }
+
+  &__group {
+    width: 100%;
+    position: relative;
+  }
+
+  &__data {
+    display: grid;
+    max-width: 400px;
+  }
+
+  &__title {
+    font-size: $h2-font-size;
+    text-align: initial;
+    margin-bottom: 0.6rem;
+    text-align: left;
+  }
+
+  &__description {
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+  }
+}
+
+.projects__title {
+  font-size: $h2-font-size
+}
+
+.projects__subtitle {
+  font-size: $h2-font-size;
+  color: $text-color-light;
+}

@@ -1,7 +1,10 @@
 <template>
-  <main class="main container">
+  <main class="main">
     <router-view />
   </main>
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
 </template>
 
 <script>

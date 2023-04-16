@@ -7,11 +7,10 @@
   font-size: $h2-font-size;
   border: 2px solid $text-color-light;
   transition: .3s;
+
   &:hover {
-    color: $body-color;
-    background-color: $first-color;
+    background-color: $first-color-alt;
     border: 2px solid $first-color;
-    transform: translateX(1rem);
   }
 }
 
@@ -29,11 +28,12 @@
   z-index: $z-tooltip;
   transition: .4s;
   opacity: .0;
+
   &:hover {
     transform: translateY(-.25rem);
   }
 }
 
-.show-scroll{
+.show-scroll {
   opacity: .9;
 }
